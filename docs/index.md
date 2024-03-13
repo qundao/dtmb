@@ -34,4 +34,4 @@
 
 ## 中国地区上空寻星参数
 
-{{ read_csv("../../data/csv/satellite.csv") }}
+{{ read_csv("../data/csv/satellite.csv") }}
