@@ -1,17 +1,32 @@
-# Welcome to MkDocs
+# 中国地面波数字电视接收参数
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> 来源: [中文寻星](http://dtmb.saoing.com)
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<table>
+  <tbody>
+    <tr>
+      <td width="115" align="center" height="40">
+        <span style="background-color: #808080">颜色代表：</span>
+      </td>
+      <td width="115" bgcolor="#808000" align="center">
+        标清开锁
+      </td>
+      <td width="115" align="center" bgcolor="#666666">
+        标清锁码
+      </td>
+      <td width="115" bgcolor="#339966" align="center">
+        高清开锁
+      </td>
+      <td width="115" bgcolor="#6666FF" align="center">
+        高清锁码
+      </td>
+      <td width="115" bgcolor="#9933FF" align="center">
+        广播&amp;数据
+      </td>
+      <td width="115" bgcolor="#C0C0C0" align="center">
+        传送
+      </td>
+    </tr>
+  </tbody>
+</table>

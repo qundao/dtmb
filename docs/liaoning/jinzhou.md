@@ -1,0 +1,12 @@
+---
+hide:
+  - toc
+---
+
+# 辽宁 锦州
+
+> 来源: [中文寻星-锦州](http://dtmb.saoing.com/jinzhou.htm)
+
+## 地面数字电视节目表
+
+{{ read_csv("../../data/csv/jinzhou.csv") }}
