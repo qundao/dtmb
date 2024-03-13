@@ -6,13 +6,13 @@
 <table>
   <tbody>
     <tr>
-      <td width="115" align="center" height="40">
-        <span style="background-color: #808080">颜色代表：</span>
+      <td width="115" height="40" align="center">
+        颜色代表：
       </td>
       <td width="115" bgcolor="#808000" align="center">
         标清开锁
       </td>
-      <td width="115" align="center" bgcolor="#666666">
+      <td width="115" bgcolor="#666666" align="center">
         标清锁码
       </td>
       <td width="115" bgcolor="#339966" align="center">

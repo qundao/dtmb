@@ -79,7 +79,7 @@ plugins:
 
 nav:
   - 首页: index.md
-  - 四直辖市:
+  - 直辖市:
     - 北京:
         - 北京: beijing/beijing.md
     - 上海:
