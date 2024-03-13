@@ -1,0 +1,13 @@
+index,频率,极化,SID,频道名称,视频编码,音频编码,锁码方式,V-PID,A-PID,发射基站,高阶参数,来源,颜色,来源颜色
+0,498, ,91,澳视澳门高清频道,MPEG-4,MPEG-2,开锁,911,912 913 914, , ,change change 2022-04-26,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+1,498, ,92,澳视葡文高清频道,MPEG-4,MPEG-2,开锁,921,922 923 924, , ,change change 2022-04-26,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+2,498, ,94,澳视资讯高清频道,MPEG-4,MPEG-2,开锁,941,942 943 944, , ,change change 2022-04-26,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+3,498, ,96,澳门卫星电视高清频道,MPEG-4,MPEG-2,开锁,961,962 963 964, , ,change change 2022-04-26,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+4,650, ,71,中央电视台综合频道（港澳版）,MPEG-4,MPEG-2,开锁,257,258 259, , ,change change 2023-07-07,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+5,650, ,72,中央电视台新闻频道,MPEG-4,MPEG-2,开锁,513,514 515, , ,change change 2023-07-07,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+6,650, ,73,[中国环球电视网新闻频道](http://www.cctv.com),MPEG-4,MPEG-2,开锁,769,770 771, , ,change change 2023-07-07,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+7,650, ,74,[中国环球电视网纪录频道](http://www.cctv.com),MPEG-4,MPEG-2,开锁,1025,1026 1027, , ,change change 2023-07-07,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+8,690, ,93,澳视体育高清频道,MPEG-4,MPEG-2,开锁,931,932 933 934, , ,change change 2022-04-26,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+9,690, ,95,澳视综艺,MPEG-4,MPEG-2,开锁,951,952 953 954, , ,change change 2022-04-26,"<span style=""background-color:#339966"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+10,690, ,97,澳门电台（ FM100.7 中文台）,MPEG-4,MPEG-1,开锁,971,972, , ,change change 2022-04-26,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+11,690, ,97,澳门电台（FM98.0 葡文台）,MPEG-4,MPEG-1,开锁,971,973, , ,change change 2022-04-26,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"

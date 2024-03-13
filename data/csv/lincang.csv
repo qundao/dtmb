@@ -1,0 +1,8 @@
+index,频率,极化,SID,频道名称,视频编码,音频编码,锁码方式,V-PID,A-PID,发射基站,高阶参数,来源,颜色,来源颜色
+0,506, , ,临沧县电视台,MPEG-2,MPEG-1,开锁,257,258, , ,xt862riji 2020-05-26,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+1,506, , ,临沧公共,MPEG-2,MPEG-1,开锁,520,521, , ,xt862riji 2020-05-26,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+2,506, , ,临沧一套,MPEG-2,MPEG-1,开锁,531,532, , ,xt862riji 2020-05-26,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+3,506, , ,临沧广播,MPEG-2,MPEG-1,开锁,524,523, , ,xt862riji 2020-05-26,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+4,562, , ,临沧公共,MPEG-2,MPEG-1,开锁, , , , ,刘学文 2022-05-07,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+5,562, , ,临沧一套,MPEG-2,MPEG-1,开锁, , , , ,刘学文 2022-05-07,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+6,562, , ,耿马台,MPEG-2,MPEG-1,开锁, , , , ,刘学文 2022-05-07,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"

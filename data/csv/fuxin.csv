@@ -1,0 +1,13 @@
+index,频率,极化,SID,频道名称,视频编码,音频编码,锁码方式,V-PID,A-PID,发射基站,高阶参数,来源,颜色,来源颜色
+0,706, , ,中央电视台军事农业频道,AVS+,DRA,开锁,512,650, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+1,706, , ,中央电视台纪录频道,AVS+,DRA,开锁,513,660, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+2,706, , ,中央电视台戏曲频道,AVS+,DRA,开锁,514,670, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+3,706, , ,中国环球电视网新闻频道,AVS+,DRA,开锁,515,680, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+4,786, , ,中央电视台综合频道,AVS+,DRA,开锁,512,650, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+5,786, , ,中央电视台经济频道,AVS+,DRA,开锁,513,660, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+6,786, , ,中央电视台中文国际频道,AVS+,DRA,开锁,514,670, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+7,786, , ,[中央电视台科教频道](http://www.cctv.com),AVS+,DRA,开锁,515,680, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+8,786, , ,[中央电视台社会与法频道](http://www.cctv.com),AVS+,DRA,开锁,516,690, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+9,786, , ,[中央电视台新闻频道](http://www.cctv.com),AVS+,DRA,开锁,517,700, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+10,786, , ,中央电视台少儿频道,AVS+,DRA,开锁,518,710, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+11,786, , ,中央电视台音乐频道,AVS+,DRA,开锁,519,720, , ,英佰 2018-05-07, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"

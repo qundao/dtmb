@@ -1,0 +1,11 @@
+index,频率,极化,SID,频道名称,视频编码,音频编码,锁码方式,V-PID,A-PID,发射基站,高阶参数,来源,颜色,来源颜色
+0,714, , ,中央电视台农业农村频道,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+1,714, , ,中央电视台纪录频道,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+2,714, , ,中央电视台戏曲频道,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+3,714, , ,中国环球电视网新闻频道,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+4,714, , ,河北卫视,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+5,714, , ,河北经济,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+6,714, , ,河北影视,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+7,714, , ,河北农民,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+8,714, , ,承德一套,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"
+9,714, , ,承德二套,AVS+,DRA,开锁, , , , , ,"<span style=""background-color:#808000"">&#12288;&#12288;</span>","<span style=""background-color:#666666"">&#12288;&#12288;</span>"

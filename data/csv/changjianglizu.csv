@@ -1,0 +1,6 @@
+index,频率,极化,SID,频道名称,视频编码,音频编码,锁码方式,V-PID,A-PID,发射基站,高阶参数,来源,颜色,来源颜色
+0,482, , ,海南综合,AVS+,MPEG-2,开锁, , ,昌江, ,大头三 2019-11-21, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+1,482, , ,海南新闻,AVS+,MPEG-2,开锁, , ,昌江, ,大头三 2019-11-21, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+2,482, , ,海南卫视,AVS+,MPEG-2,开锁, , ,昌江, ,大头三 2019-11-21, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+3,482, , ,三沙卫视,AVS+,MPEG-2,开锁, , ,昌江, ,大头三 2019-11-21, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
+4,482, , ,昌江电视台,AVS+,MPEG-2,开锁, , ,昌江, ,大头三 2019-11-21, ,"<span style=""background-color:#FF9933"">&#12288;&#12288;</span>"
