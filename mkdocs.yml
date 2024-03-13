@@ -1,2 +1,450 @@
-site_name: My Docs
-theme: material
+site_name: 中国地面波数字电视接收参数
+site_url: https://hantang.github.io/wayback-dtmb/
+site_description: 地面波数字电视, DTMB
+copyright: A backup of <a href="http://dtmb.saoing.com">中文寻星</a>
+repo_url: https://github.com/hantang/wayback-dtmb
+
+theme:
+  name: material
+  icon:
+      logo: material/satellite-uplink
+  font:
+    text: Source Sans Pro, sans-serif
+    code: Source Code Pro, monospace
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep purple
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to system preference
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    # - toc.follow
+    # - toc.integrate
+    # - content.code.copy
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - footnotes
+  - md_in_html
+#   - toc:
+#       permalink: true
+#       toc_depth: 4
+#       slugify: !!python/object/apply:pymdownx.slugs.slugify
+#         kwds:
+#           case: lower
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:material.extensions.emoji.twemoji
+#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+#   - pymdownx.highlight:
+#       anchor_linenums: true
+#       auto_title: true
+#       line_spans: __span
+#       linenums_style: pymdownx-inline
+#       linenums: true
+#       pygments_lang_class: true
+#   - pymdownx.inlinehilite
+#   - pymdownx.snippets
+#   - pymdownx.superfences
+#   - pymdownx.arithmatex:
+#       generic: true
+
+plugins:
+  - search
+  - table-reader
+  - minify:
+      minify_html: true
+
+nav:
+  - 首页: index.md
+  - 四直辖市:
+    - 北京:
+        - 北京: beijing/beijing.md
+    - 上海:
+        - 上海: shanghai/shanghai.md
+    - 天津:
+        - 天津: tianjin/tianjin.md
+    - 重庆:
+        - 重庆: chongqing/chongqing.md
+  - 华北地区:
+    - 河北:
+        - 唐山: hebei/tangshan.md
+        - 邯郸: hebei/handan.md
+        - 石家庄: hebei/shijiazhuang.md
+        - 保定: hebei/baoding.md
+        - 沧州: hebei/cangzhou.md
+        - 廊坊: hebei/langfang.md
+        - 邢台: hebei/xingtai.md
+        - 衡水: hebei/hengshui.md
+        - 秦皇岛: hebei/qinhuangdao.md
+        - 张家口: hebei/zhangjiakou.md
+        - 承德: hebei/chengde.md
+    - 山西:
+        - 朔州: shanxi2/shuozhou.md
+        - 太原: shanxi2/taiyuan.md
+        - 晋中: shanxi2/jinzhong.md
+        - 忻州: shanxi2/xinzhou.md
+        - 运城: shanxi2/yuncheng.md
+        - 吕梁: shanxi2/lvliang.md
+        - 临汾: shanxi2/linfen.md
+        - 大同: shanxi2/datong.md
+        - 阳泉: shanxi2/yangquan.md
+        - 长治: shanxi2/changzhi.md
+        - 晋城: shanxi2/jincheng.md
+    - 内蒙古:
+        - 鄂尔多斯: neimenggu/eerduosi.md
+        - 乌海: neimenggu/wuhai.md
+        - 包头: neimenggu/baotou.md
+        - 通辽: neimenggu/tongliao.md
+        - 呼和浩特: neimenggu/huhehaote.md
+        - 锡林郭勒盟: neimenggu/xilinguole.md
+        - 乌兰察布: neimenggu/wulanchabu.md
+        - 赤峰: neimenggu/chifeng.md
+        - 呼伦贝尔: neimenggu/hulunbeier.md
+        - 巴彦淖尔: neimenggu/bayannaoer.md
+  - 东北地区:
+    - 黑龙江:
+        - 哈尔滨: heilongjiang/haerbin.md
+        - 齐齐哈尔: heilongjiang/qiqihaer.md
+        - 绥化: heilongjiang/suihua.md
+        - 双鸭山: heilongjiang/shuangyashan.md
+        - 大庆: heilongjiang/daqing.md
+        - 牡丹江: heilongjiang/mudanjiang.md
+        - 鹤岗: heilongjiang/hegang.md
+        - 鸡西: heilongjiang/jixi.md
+        - 佳木斯: heilongjiang/jiamusi.md
+        - 黑河: heilongjiang/heihe.md
+        - 伊春: heilongjiang/yichun2.md
+    - 吉林:
+        - 长春: jilin/changchun.md
+        - 公主岭: jilin/gongzhuling.md
+        - 延边朝鲜族 自治州: jilin/yanbian.md
+        - 辽源: jilin/liaoyuan.md
+        - 吉林: jilin/jilinshi.md
+        - 通化: jilin/tonghua.md
+        - 白山: jilin/baishan.md
+        - 白城: jilin/baicheng.md
+        - 松原: jilin/songyuan.md
+        - 四平: jilin/siping.md
+    - 辽宁:
+        - 沈阳: liaoning/shenyang.md
+        - 大连: liaoning/dalian.md
+        - 锦州: liaoning/jinzhou.md
+        - 葫芦岛: liaoning/huludao.md
+        - 营口: liaoning/yingkou.md
+        - 盘锦: liaoning/panjin.md
+        - 鞍山: liaoning/anshan.md
+        - 丹东: liaoning/dandong.md
+        - 朝阳: liaoning/chaoyang.md
+        - 铁岭: liaoning/tieling.md
+        - 本溪: liaoning/benxi.md
+        - 抚顺: liaoning/fushun.md
+        - 阜新: liaoning/fuxin.md
+        - 辽阳: liaoning/liaoyang.md
+  - 西北地区:
+    - 新疆:
+        - 喀什: xinjiang/kashi.md
+        - 巴音郭楞 蒙古族自治州: xinjiang/bayinguoleng.md
+        - 吐鲁番: xinjiang/tulufan.md
+        - 乌鲁木齐: xinjiang/wulumuqi.md
+        - 石河子: xinjiang/shihezi.md
+        - 伊犁州: xinjiang/yilihasake.md
+        - 昌吉州: xinjiang/changji.md
+        - 五家渠: xinjiang/wujiaqu.md
+        - 哈密: xinjiang/hami.md
+    - 甘肃:
+        - 定西: gansu/dingxi.md
+        - 金昌: gansu/jinchang.md
+        - 平凉: gansu/pingliang.md
+        - 兰州: gansu/lanzhou.md
+        - 武威: gansu/wuwei.md
+        - 临夏: gansu/linxia.md
+        - 白银: gansu/baiyin.md
+        - 天水: gansu/tianshui.md
+        - 庆阳: gansu/qingyang.md
+        - 陇南: gansu/longnan.md
+        - 酒泉: gansu/jiuquan.md
+        - 嘉峪关: gansu/jiayuguan.md
+    - 宁夏:
+        - 银川: ningxia/yinchuan.md
+        - 石嘴山: ningxia/shizuishan.md
+        - 吴忠: ningxia/wuzhong.md
+        - 中卫: ningxia/zhongwei.md
+        - 固原: ningxia/guyuan.md
+    - 青海:
+        - 海东: qinghai/haidong.md
+        - 西宁: qinghai/xining.md
+        - 海南州: qinghai/hainanzhou.md
+    - 陕西:
+        - 西安: shanxi1/xian.md
+        - 咸阳: shanxi1/xianyang.md
+        - 渭南: shanxi1/weinan.md
+        - 铜川: shanxi1/tongchuan.md
+        - 汉中: shanxi1/hanzhong.md
+        - 榆林: shanxi1/yulin.md
+        - 安康: shanxi1/ankang.md
+        - 宝鸡: shanxi1/baoji.md
+        - 商洛: shanxi1/shangluo.md
+        - 延安: shanxi1/yanan.md
+  - 华东地区:
+    - 江苏:
+        - 南京: jiangsu/nanjing.md
+        - 无锡: jiangsu/wuxi.md
+        - 镇江: jiangsu/zhenjiang.md
+        - 常州: jiangsu/changzhou.md
+        - 盐城: jiangsu/yancheng.md
+        - 连云港: jiangsu/lianyungang.md
+        - 淮安: jiangsu/huaian.md
+        - 扬州: jiangsu/yangzhou.md
+        - 泰州: jiangsu/taizhou.md
+        - 苏州: jiangsu/suzhoujs.md
+        - 南通: jiangsu/nantong.md
+        - 宿迁: jiangsu/suqian.md
+        - 徐州: jiangsu/xuzhou.md
+    - 浙江:
+        - 台州: zhejiang/taizhouzj.md
+        - 舟山: zhejiang/zhoushan.md
+        - 杭州: zhejiang/hangzhou.md
+        - 宁波: zhejiang/ningbo.md
+        - 嘉兴: zhejiang/jiaxing.md
+        - 金华: zhejiang/jinhua.md
+        - 绍兴: zhejiang/shaoxing.md
+        - 湖州: zhejiang/huzhou.md
+        - 丽水: zhejiang/lishui.md
+        - 温州: zhejiang/wenzhou.md
+        - 衢州: zhejiang/quzhou.md
+    - 山东:
+        - 烟台: shandong/yantai.md
+        - 青岛: shandong/qingdao.md
+        - 济南: shandong/jinan.md
+        - 潍坊: shandong/weifang.md
+        - 日照: shandong/rizhao.md
+        - 临沂: shandong/linyi.md
+        - 滨州: shandong/binzhou.md
+        - 泰安: shandong/taian.md
+        - 济宁: shandong/jining.md
+        - 淄博: shandong/zibo.md
+        - 威海: shandong/weihai.md
+        - 聊城: shandong/liaocheng.md
+        - 东营: shandong/dongying.md
+        - 菏泽: shandong/heze.md
+        - 德州: shandong/dezhou.md
+        - 枣庄: shandong/zaozhuang.md
+    - 安徽:
+        - 滁州: anhui/chuzhou.md
+        - 六安: anhui/luan.md
+        - 芜湖: anhui/wuhu.md
+        - 合肥: anhui/hefei.md
+        - 阜阳: anhui/fuyang.md
+        - 淮南: anhui/huainan.md
+        - 宿州: anhui/suzhou-ah.md
+        - 蚌埠: anhui/bengbu.md
+        - 亳州: anhui/bozhou.md
+        - 安庆: anhui/anqing.md
+        - 淮北: anhui/huaibei.md
+        - 铜陵: anhui/tongling.md
+        - 池州: anhui/chizhou.md
+        - 宣城: anhui/xuancheng.md
+        - 黄山: anhui/huangshan.md
+        - 马鞍山: anhui/maanshan.md
+    - 江西:
+        - 赣州: jiangxi/ganzhou.md
+        - 萍乡: jiangxi/pingxiang.md
+        - 南昌: jiangxi/nanchang.md
+        - 九江: jiangxi/jiujiang.md
+        - 上饶: jiangxi/shangrao.md
+        - 宜春: jiangxi/yichun.md
+        - 吉安: jiangxi/jian.md
+        - 新余: jiangxi/xinyu.md
+        - 鹰潭: jiangxi/yingtan.md
+    - 福建:
+        - 福州: fujian/fuzhou.md
+        - 泉州: fujian/quanzhou.md
+        - 三明: fujian/sanming.md
+        - 厦门: fujian/xiamen.md
+        - 莆田: fujian/putian.md
+        - 龙岩: fujian/longyan.md
+        - 漳州: fujian/zhangzhou.md
+        - 南平: fujian/nanping.md
+        - 宁德: fujian/ningde.md
+  - 华中地区:
+    - 河南:
+        - 郑州: henan/zhengzhou.md
+        - 周口: henan/zhoukou.md
+        - 安阳: henan/anyang.md
+        - 焦作: henan/jiaozuo.md
+        - 洛阳: henan/luoyang.md
+        - 新乡: henan/xinxiang.md
+        - 开封: henan/kaifeng.md
+        - 漯河: henan/luohe.md
+        - 濮阳: henan/puyang.md
+        - 驻马店: henan/zhumadian.md
+        - 信阳: henan/xinyang.md
+        - 南阳: henan/nanyang.md
+        - 平顶山: henan/pingdingshan.md
+        - 许昌: henan/xuchang.md
+        - 商丘: henan/shangqiu.md
+        - 三门峡: henan/sanmenxia.md
+        - 鹤壁: henan/hebi.md
+        - 济源: henan/jiyuan.md
+    - 湖北:
+        - 天门: hubei/tianmen.md
+        - 黄石: hubei/huangshi.md
+        - 荆门: hubei/jingmen.md
+        - 随州: hubei/suizhou.md
+        - 武汉: hubei/wuhan.md
+        - 宜昌: hubei/yichang.md
+        - 荆州: hubei/jingzhou.md
+        - 襄阳: hubei/xiangyang.md
+        - 黄冈: hubei/huanggang.md
+        - 鄂州: hubei/ezhou.md
+        - 恩施: hubei/enshi.md
+        - 十堰: hubei/shiyan.md
+        - 孝感: hubei/xiaogan.md
+        - 咸宁: hubei/xianning.md
+        - 神农架: hubei/shennongjia.md
+        - 潜江: hubei/qianjiang.md
+        - 仙桃: hubei/xiantao.md
+    - 湖南:
+        - 长沙: hunan/changsha.md
+        - 永州: hunan/yongzhou.md
+        - 郴州: hunan/chenzhou.md
+        - 衡阳: hunan/hengyang.md
+        - 岳阳: hunan/yueyang.md
+        - 常德: hunan/changde.md
+        - 娄底: hunan/loudi.md
+        - 张家界: hunan/zhangjiajie.md
+        - 邵阳: hunan/shaoyang.md
+        - 株洲: hunan/zhuzhou.md
+        - 怀化: hunan/huaihua.md
+        - 益阳: hunan/yiyang.md
+        - 湘潭: hunan/xiangtan.md
+        - 湘西土家族 苗族自治州: hunan/xiangxi.md
+  - 华南地区:
+    - 广东:
+        - 中山: guangdong/zhongshan.md
+        - 深圳: guangdong/shenzhen.md
+        - 广州: guangdong/guangzhou.md
+        - 茂名: guangdong/maoming.md
+        - 肇庆: guangdong/zhaoqing.md
+        - 佛山: guangdong/foshan.md
+        - 惠州: guangdong/huizhou.md
+        - 河源: guangdong/heyuan.md
+        - 汕头: guangdong/shantou.md
+        - 江门: guangdong/jiangmen.md
+        - 韶关: guangdong/shaoguan.md
+        - 潮州: guangdong/chaozhou.md
+        - 清远: guangdong/qingyuan.md
+        - 湛江: guangdong/zhanjiang.md
+        - 梅州: guangdong/meizhou.md
+        - 揭阳: guangdong/jieyang.md
+        - 云浮: guangdong/yunfu.md
+        - 阳江: guangdong/yangjiang.md
+        - 东莞: guangdong/dongguan.md
+        - 汕尾: guangdong/shanwei.md
+        - 珠海: guangdong/zhuhai.md
+    - 广西:
+        - 南宁: guangxi/nanning.md
+        - 梧州: guangxi/wuzhou.md
+        - 玉林: guangxi/yulin2.md
+        - 贵港: guangxi/guigang.md
+        - 崇左: guangxi/chongzuo.md
+        - 钦州: guangxi/qinzhou.md
+        - 河池: guangxi/hechi.md
+        - 北海: guangxi/beihai.md
+        - 柳州: guangxi/liuzhou.md
+        - 百色: guangxi/baise.md
+        - 桂林: guangxi/guilin.md
+        - 防城港: guangxi/fangchenggang.md
+        - 贺州: guangxi/hezhou.md
+        - 来宾: guangxi/laibin.md
+    - 海南:
+        - 三亚: hainan/sanya.md
+        - 澄迈: hainan/chengmai.md
+        - 文昌: hainan/wenchang.md
+        - 琼海: hainan/qionghai.md
+        - 海口: hainan/haikou.md
+        - 屯昌: hainan/tunchang.md
+        - 儋州: hainan/danzhou.md
+        - 定安: hainan/dingan.md
+        - 临高: hainan/lingao.md
+        - 东方: hainan/dongfang.md
+        - 昌江: hainan/changjianglizu.md
+        - 万宁: hainan/wanning.md
+  - 西南地区:
+    - 贵州:
+        - 六盘水: guizhou/liupanshui.md
+        - 贵阳: guizhou/guiyang.md
+        - 黔南州: guizhou/qiannan.md
+        - 黔东南: guizhou/qiandongnan.md
+        - 铜仁: guizhou/tongren.md
+        - 遵义: guizhou/zunyi.md
+        - 安顺: guizhou/anshun.md
+        - 黔西南州: guizhou/qianxinan.md
+        - 毕节: guizhou/bijie.md
+    - 云南:
+        - 保山: yunnan/baoshan.md
+        - 昆明: yunnan/kunming.md
+        - 楚雄: yunnan/chuxiong.md
+        - 临沧: yunnan/lincang.md
+        - 大理: yunnan/dali.md
+        - 德宏州: yunnan/dehong.md
+        - 怒江州: yunnan/nujiang.md
+        - 玉溪: yunnan/yuxi.md
+        - 昭通: yunnan/zhaotong.md
+        - 文山州: yunnan/wenshan.md
+        - 普洱: yunnan/puer.md
+        - 丽江: yunnan/lijiang.md
+    - 西藏:
+        - 日喀则: xizang/rikaze.md
+        - 昌都: xizang/changdu.md
+    - 四川:
+        - 成都: sichuan/chengdu.md
+        - 眉山: sichuan/meishan.md
+        - 南充: sichuan/nanchong.md
+        - 宜宾: sichuan/yibin.md
+        - 资阳: sichuan/ziyang.md
+        - 自贡: sichuan/zigong.md
+        - 乐山: sichuan/leshan.md
+        - 达州: sichuan/dazhou.md
+        - 德阳: sichuan/deyang.md
+        - 绵阳: sichuan/mianyang.md
+        - 广元: sichuan/guangyuan.md
+        - 广安: sichuan/guangan.md
+        - 遂宁: sichuan/suining.md
+        - 泸州: sichuan/luzhou.md
+        - 攀枝花: sichuan/panzhihua.md
+        - 凉山州: sichuan/liangshan.md
+        - 雅安: sichuan/yaan.md
+        - 巴中: sichuan/bazhong.md
+        - 内江: sichuan/neijiang.md
+        - 甘孜州: sichuan/ganzizhou.md
+  - 港澳台地区:
+    - 香港:
+        - 香港: xianggang/xianggang.md
+    - 澳门:
+        - 澳门: aomen/aomen.md
+    - 台湾:
+        - 台湾: taiwan/taiwan.md
