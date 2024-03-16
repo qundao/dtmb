@@ -1,8 +1,8 @@
-site_name: 中国地面波数字电视接收参数
-site_url: https://hantang.github.io/wayback-dtmb/
+site_name: 中国地面波数字电视（DTMB）接收参数列表
+site_url: https://qundao.github.io/dtmb/
 site_description: 地面波数字电视, DTMB
 copyright: A backup of <a href="http://dtmb.saoing.com">中文寻星</a>
-repo_url: https://github.com/hantang/wayback-dtmb
+repo_url: https://github.com/qundao/dtmb
 
 theme:
   name: material
@@ -49,27 +49,12 @@ markdown_extensions:
   - attr_list
   - footnotes
   - md_in_html
-#   - toc:
-#       permalink: true
-#       toc_depth: 4
-#       slugify: !!python/object/apply:pymdownx.slugs.slugify
-#         kwds:
-#           case: lower
-#   - pymdownx.emoji:
-#       emoji_index: !!python/name:material.extensions.emoji.twemoji
-#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-#   - pymdownx.highlight:
-#       anchor_linenums: true
-#       auto_title: true
-#       line_spans: __span
-#       linenums_style: pymdownx-inline
-#       linenums: true
-#       pygments_lang_class: true
-#   - pymdownx.inlinehilite
-#   - pymdownx.snippets
-#   - pymdownx.superfences
-#   - pymdownx.arithmatex:
-#       generic: true
+  - toc:
+      permalink: true
+      toc_depth: 4
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 plugins:
   - search
