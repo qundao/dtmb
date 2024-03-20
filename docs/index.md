@@ -5,7 +5,7 @@
 ## 地面数字电视节目参数颜色标注
 
 <table>
-  <tbody>
+  <thead>
     <tr>
       <td width="115" height="40" align="center">
         颜色代表：
@@ -29,7 +29,7 @@
         传送
       </td>
     </tr>
-  </tbody>
+  </thead>
 </table>
 
 ## 中国地区上空寻星参数
